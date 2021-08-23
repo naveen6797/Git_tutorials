@@ -7,7 +7,7 @@ def my_function(x):
         print("other", x)
 
 
-x = float(input("enetr number"))
-y = int(input("enetr number"))
-my_function(x)
-my_function(y)
+num1 = float(input("enetr number"))
+num2 = int(input("enetr number"))
+my_function(num1)
+my_function(num2)
