@@ -1,7 +1,7 @@
-number=90
-if(number%9==0):
-     print('given number is 9 factor')
-     print('Given number 9 factor of',number//9,)
+number = 100
+if(number % 10==0):
+     print('given number is 10 factor')
+     print('Given number 10 factor of',number//10,)
 else:
-    print('given number not 9 factor')
+    print('given number not 10 factor')
 

@@ -1,8 +1,8 @@
-def naveen(n):
-    if n==1:
+def factorial(num):
+    if num==1:
         return 1
     else:
-        return n*naveen(n-1)
-n = int(input("enter n value"))
-result = naveen(n)
+        return num*factorial(num-1)
+num = int(input("enter n value"))
+result = factorial(num)
 print(result)
