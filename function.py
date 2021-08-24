@@ -1,10 +1,10 @@
-def my_function(x):
-    if x%2 == 0:
-        print("even", x)
-    elif x%2==1:
-        print("odd", x)
+def my_function(num):
+    if num % 2 == 0:
+        print("even", num)
+    elif num % 2 == 1:
+        print("odd", num)
     else:
-        print("other", x)
+        print("other", num)
 
 
 num1 = float(input("enetr number"))
